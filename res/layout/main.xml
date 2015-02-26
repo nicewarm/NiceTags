@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+        >
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/capture"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="点击拍照并剪裁"/>
+</FrameLayout>
+

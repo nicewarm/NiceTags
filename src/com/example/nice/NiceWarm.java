@@ -1,0 +1,1 @@
+package com.example.nice;import android.app.Application;public class NiceWarm extends Application {	private static NiceWarm mApplication;	@Override	public void onCreate() {		super.onCreate();		mApplication = this;	}	public static NiceWarm getInstance() {		return mApplication;	}}
